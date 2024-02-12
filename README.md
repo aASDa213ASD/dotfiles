@@ -1,8 +1,9 @@
 <div align="center">
+
 <h1>Packages</h1>
 <i>List of required life-quality packages</i>
-</div>
 
+</div>
 <br>
 
 ## Managers
@@ -62,11 +63,13 @@ paru -S visual-studio-code-bin
 sudo pacman -S ttf-jetbrains-mono
 ```
 
+<br>
 <div align="center">
+
 <h1>Tweaks (KDE)</h1>
 <i>This is a temprorary topic until actual dotfiles are uploaded</i>
-</div>
 
+</div>
 <br>
 
 ## Disable KWallet
