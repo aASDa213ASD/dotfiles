@@ -63,6 +63,15 @@ paru -S visual-studio-code-bin
 sudo pacman -S ttf-jetbrains-mono
 ```
 
+## Flex
+| Package Name                                                    | Description         | Package Manager |
+| --------------------------------------------------------------- | ------------------- | ----------------|
+| [neofetch](https://archlinux.org/packages/extra/any/neofetch/)  | CLI System Info Tool | Pacman         |
+
+```bash
+sudo pacman -S neofetch
+```
+
 <br>
 <div align="center">
 <h1>Gaming</h1>
