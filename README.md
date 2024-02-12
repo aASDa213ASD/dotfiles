@@ -65,6 +65,61 @@ sudo pacman -S ttf-jetbrains-mono
 
 <br>
 <div align="center">
+<h1>Gaming</h1>
+<i>I'm just addicted to be honest</i>
+</div>
+<br>
+
+##### Assuming you own an AMD GPU with all the <b>mesa & vulkan</b> drivers <u>installed</u>
+
+## Steam, thanks Valve
+| Package Name                                    | Description                 | Package Manager   |
+| ----------------------------------------------- | --------------------------- | ----------------- |
+| [steam](https://wiki.archlinux.org/title/Steam) | Open Gaming Platform        | Pacman            |
+
+```bash
+sudo pacman -S steam
+```
+
+## Wine
+| Package Name                                  | Description                 | Package Manager   |
+| --------------------------------------------- | --------------------------- | ----------------- |
+| [wine](https://wiki.archlinux.org/title/Wine) | Windows Compatibility Layer | Pacman            |
+
+```bash
+sudo pacman -S wine
+```
+
+## Lutris
+| Package Name                                               | Description                 | Package Manager   |
+| ---------------------------------------------------------- | --------------------------- | ----------------- |
+| [lutris](https://archlinux.org/packages/extra/any/lutris/) | Open Gaming Platform        | Pacman            |
+
+```bash
+sudo pacman -S lutris
+```
+
+## Gamescope
+| Package Name                                            | Description                 | Package Manager   |
+| ------------------------------------------------------- | --------------------------- | ----------------- |
+| [gamescope](https://wiki.archlinux.org/title/Gamescope) | Microcompositor from Valve  | Pacman            |
+
+```bash
+sudo pacman -S gamescope
+```
+
+## Mangohud
+| Package Name                                                      | Description               | Package Manager   |
+| ----------------------------------------------------------------- | ------------------------- | ----------------- |
+| [mangohud](https://wiki.archlinux.org/title/MangoHud)             | Monitoring Overlay        | Pacman            |
+| [goverlay](https://archlinux.org/packages/extra/x86_64/goverlay/) | GUI Manager for MangoHud  | Pacman            |
+
+```bash
+sudo pacman -S mangohud goverlay
+```
+
+<br>
+<div align="center">
 
 <h1>Tweaks (KDE)</h1>
 <i>This is a temprorary topic until actual dotfiles are uploaded</i>
@@ -75,8 +130,7 @@ sudo pacman -S ttf-jetbrains-mono
 ## Disable KWallet
 ```bash
 cd ~/.config/
-touch kwalletrc
-nano kwalletrc
+touch kwalletrc && nano kwalletrc
 
 # Paste this:
 [Wallet]
