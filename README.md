@@ -44,7 +44,7 @@ paru -S thorium-browser-bin
 ```
 
 ## Code Editor
-<small> One day [OSS](https://archlinux.org/packages/extra/x86_64/code/) & [Codium](https://aur.archlinux.org/packages/vscodium) will get all plugins support. <small>
+<small>One day [OSS](https://archlinux.org/packages/extra/x86_64/code/) & [Codium](https://aur.archlinux.org/packages/vscodium) will get all plugins support.</small>
 
 | Package Name                                                                        | Description         | Package Manager |
 | ----------------------------------------------------------------------------------- | ------------------- | ----------------|
@@ -71,6 +71,26 @@ sudo pacman -S ttf-jetbrains-mono
 ```bash
 sudo pacman -S neofetch
 ```
+
+## Screen capture
+
+<small>The actual screenshot script is not yet uploaded</small>
+
+| Package Name                                                             | Description                 | Package Manager |
+| ------------------------------------------------------------------------ | --------------------------- | --------------- |
+| [obs-studio](https://wiki.archlinux.org/title/Open_Broadcaster_Software) | Video Recording Application | Pacman          |
+| [maim](https://archlinux.org/packages/extra/x86_64/maim/)                | Screen Capture Utility      | Pacman          |
+| [imagemagick](https://archlinux.org/packages/extra/x86_64/imagemagick/)  | Image Manipulation Tool     | Pacman          |
+| [xclip](https://archlinux.org/packages/extra/x86_64/xclip)               | XOrg CLI Clipboard Tool     | Pacman          |
+
+
+```bash
+sudo pacman -S obs-studio maim imagemagick xclip
+```
+
+<small>Additionally to OBS you may consider installing <b><a href="obs-pipewire-audio-capture">obs-pipewire-audio-capture</a> </b>plugin</small>
+
+<small>Exctract to: <b>~/.config/obs-studio/plugins/</b></small>
 
 <br>
 <div align="center">
