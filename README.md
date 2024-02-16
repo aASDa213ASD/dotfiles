@@ -6,6 +6,28 @@
 </div>
 <br>
 
+## Kernel
+
+| Package Name                                             | Description                   | Package Manager |
+| -------------------------------------------------------- | ----------------------------- | --------------- |
+| [linux-zen](https://wiki.archlinux.org/title/Kernel)     | Monolithic Unix-like Computer | Pacman          |
+
+
+```bash
+sudo pacman -S linux-zen
+```
+
+```bash
+sudo nano /etc/default/grub
+
+# Remember last selected kernel boot option:
+GRUB_DEFAULT=saved
+GRUB_SAVEDEFAULT=true
+
+# Save configuration
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+```
+
 ## Managers
 
 | Package Name                                    | Description                   | Package Manager |
