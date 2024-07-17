@@ -168,3 +168,43 @@ sudo pacman -S gamescope
 ```bash
 sudo pacman -S mangohud goverlay
 ```
+
+<div align="center">
+
+<h1>Troubleshooting</h1>
+
+</div>
+<br>
+
+# Bad mouse
+###### Included into .xorg-configs/
+Basically if you move your mouse somewhat fast by 'drawing' circles on your screen something weird starts to happen:
+```bash
+event5  - Mouse: client bug: event processing lagging behind by 30ms, your system is too slow
+event5  - Mouse: client bug: event processing lagging behind by 29ms, your system is too slow
+event5  - Mouse: client bug: event processing lagging behind by 31ms, your system is too slow
+event5  - Mouse: SYN_DROPPED event - some input events have been lost.
+event5  - Mouse: SYN_DROPPED event - some input events have been lost. 
+event5  - Mouse: SYN_DROPPED event - some input events have been lost.
+event5  - Mouse: WARNING: log rate limit exceeded (5 msgs per 30s). Discarding future messages.
+```
+
+The problem is quite simple to be honest: by default we have `hardware cursors` enabled and each move of your mouse cursor is painted by the GPU directly into the framebuffer which causes your system to go <b>insane</b>
+
+The fix is also obvious:
+```bash
+cd /etc/X11/xorg.conf.d/
+sudo touch 20-amdgpu.conf
+
+# Configuration is defined as follows
+Section "OutputClass"
+    Identifier "AMD"
+    MatchDriver "amdgpu"
+    Driver "amdgpu"
+EndSection
+```
+
+```bash
+# Add software cursors option and toggle it
+Option "SWcursor" "on"
+```
