@@ -1,9 +1,5 @@
-<div align="center">
-
 <h1>Packages</h1>
 <i>List of required life-quality packages</i>
-
-</div>
 <br>
 
 ## Kernel
@@ -80,6 +76,7 @@ paru -S visual-studio-code-bin
 | Package Name                                                                        | Description         | Package Manager |
 | ----------------------------------------------------------------------------------- | ------------------- | ----------------|
 | [ttf-jetbrains-mono](https://archlinux.org/packages/extra/any/ttf-jetbrains-mono/)  | JetBrains Mono Font | Pacman          |
+| [ttf-jetbrains-mono-nerd](https://archlinux.org/packages/extra/any/ttf-jetbrains-mono-nerd/)  | JetBrains Mono Font | Pacman          |
 
 ```bash
 sudo pacman -S ttf-jetbrains-mono
@@ -115,10 +112,9 @@ sudo pacman -S obs-studio maim imagemagick xclip
 <small>Exctract to: <b>~/.config/obs-studio/plugins/</b></small>
 
 <br>
-<div align="center">
+
 <h1>Gaming</h1>
 <i>I'm just addicted to be honest</i>
-</div>
 <br>
 
 ##### Assuming you own an AMD GPU with all the <b>mesa & vulkan</b> drivers <u>installed</u>
@@ -169,11 +165,7 @@ sudo pacman -S gamescope
 sudo pacman -S mangohud goverlay
 ```
 
-<div align="center">
-
 <h1>Troubleshooting</h1>
-
-</div>
 <br>
 
 # Bad mouse
