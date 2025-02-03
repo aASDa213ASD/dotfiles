@@ -1,0 +1,14 @@
+# Zip archive utility
+zip
+
+# Unzip archive utility
+unzip
+
+# Unrar archive utility
+unrar
+
+# Tar utility
+tar
+
+# NTFS R/W Support
+ntfs-3g

@@ -1,0 +1,5 @@
+# Jetbrains Mono
+ttf-jetbrains-mono
+
+# Jetbrains Nerd Font
+ttf-jetbrains-mono-nerd

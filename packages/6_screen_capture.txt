@@ -1,0 +1,12 @@
+# OBS Studio
+obs-studio
+
+# Screen capture utility
+maim
+
+# Image manipulation tool
+imagemagick
+
+# XOrg CLI clipboard tool
+xclip
+

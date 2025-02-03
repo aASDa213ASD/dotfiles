@@ -1,0 +1,8 @@
+# Process hacker on crack
+btop
+
+# Mangohud, monitoring overlay
+mangohud
+
+# Goverlay, a settings UI for Mangohud
+goverlay

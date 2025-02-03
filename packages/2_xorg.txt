@@ -1,0 +1,20 @@
+# XOrg Server
+xorg-server
+
+# Initialization utility (for .xinitrc)  
+xorg-xinit
+
+# Utility to manage screen resolutions  
+xorg-xrandr
+
+# Manage display and keyboard settings  
+xorg-xset
+
+# Adjust screen brightness  
+xorg-xbacklight
+
+# Input devices management (like touchpads)  
+xorg-xinput
+
+# Keyboard layout management
+xorg-setxkbmap

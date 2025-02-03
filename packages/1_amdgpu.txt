@@ -1,0 +1,18 @@
+# AMDGPU Driver
+mesa
+
+# Mesa demo programs (glxgears)
+mesa-utils
+
+# X11 Driver for AMD GPUs
+xf86-video-amdgpu
+
+# Vulkan support
+vulkan-radeon
+
+# Vulkan support (x32)
+lib32-vulkan-radeon
+
+# OpenGL vendor dispatch library (required for Mesa)
+libglvnd
+

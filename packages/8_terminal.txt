@@ -1,0 +1,6 @@
+# Kitty GPU Accelerated terminal emulator
+kitty
+
+# Fastfetch
+fastfetch
+
